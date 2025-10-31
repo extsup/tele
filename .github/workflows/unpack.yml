@@ -1,4 +1,4 @@
-name: Extract File
+name: Extract Filee
 
 on:
   workflow_dispatch:
