@@ -36,7 +36,7 @@ module.exports = async (req, res) => {
         phoneCode: phoneCode
       }));
 
-      // Save authenticated session
+      // Save authenticated sessio
       localStorage.setItem(sessionId, client.session.save());
 
       // Get user info
